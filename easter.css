@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 2000px;
+	 height: 1124px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #bg 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 2000px;
+	 height: 1124px;
+	 z-index:1;
+	 /* background-color: #ff0000; */
+	 background-image: linear-gradient(to top, rgb(51,204,255), rgb(51, 153, 204));
+
+} 
+
+ #tree 
+{ 
+	 left: 0px; 
+	 top: 31px; 
+	 position: absolute; 
+	 width: 565px;
+	 height: 878px;
+	 z-index:3;
+} 
+
+ #bush 
+{ 
+	 left: 1524px; 
+	 top: 667px; 
+	 position: absolute; 
+	 width: 262px;
+	 height: 284px;
+	 z-index:4;
+} 
+
+ #grass 
+{ 
+	 left: 0px; 
+	 top: 837px; 
+	 position: absolute; 
+	 width: 2000px;
+	 height: 287px;
+	 z-index:5;
+} 
+
+.bounce {
+	z-index:2;
+	width:250px;
+	height:250px;
+	position: absolute;
+}
+.bounce img {
+	width:100%
+}
